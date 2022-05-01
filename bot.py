@@ -42,7 +42,7 @@ MediaList = {}
 Bot = Client(
     Config.BOT_USERNAME,
     bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
+    api_id=Config.API_Key,
     api_hash=Config.API_HASH
 )
 
