@@ -4,7 +4,7 @@ import os
 
 
 class Config(object):
-	API_Key = int(os.environ.get("API_Key", "0"))
+	API_KEY = int(os.environ.get("API_KEY", "0"))
 	API_HASH = os.environ.get("API_HASH")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME")
